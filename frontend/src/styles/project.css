@@ -1,0 +1,151 @@
+.headercolor {
+    background: antiquewhite;
+}
+
+.headerColorAttribute {
+  background: rgb(221, 217, 217);
+  font-family: Arial;
+  font-weight: bolder !important;
+}
+
+.right {
+    float: right;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+  }
+
+.TableCell{
+    text-align: center;
+  }
+
+.textColor {
+    color: brown;
+  }
+
+.spacing-left {
+  margin-left: 5%;
+}
+
+.spacing-right {
+  margin-right: 2%;
+}
+
+.spacing {
+  margin: 10%;
+}
+
+.padding-runJob {
+  padding: 30px;
+}
+
+.dragging {
+  background-color: #020b11; 
+  transition: background-color 1.02s, opacity 1.02s, transform 1.02s ease;
+  position: relative;
+  transform: scale(1.02);
+}
+
+.dragging:hover {
+  background-color: #050f19; 
+  z-index: 1; 
+}
+
+.dragging.drag-start {
+  transform: scale(2);
+}
+
+.mesaggeCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: white;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modalTitle {
+  font-size: 24px;
+  margin-bottom: 2%;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalFormItem {
+  margin-bottom: 16px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end; /* Updated */
+}
+
+.modalButton {
+  margin-left: 8px; /* Added margin */
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modalButton:hover {
+  background-color: #f0f0f0;
+}
+
+.modalCloseButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.modalCloseButton:hover {
+  background-color: #d32f2f;
+}
+
+.MuiTableRow-root {
+  border: 1px solid #f5f5f5 !important;
+  padding: 2px;
+  text-align: center;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: -2px; /* Change the background color on hover */
+}
+
+.MuiTableCell-root {
+  text-align: center;
+  padding: -2px !important ; /* Change the background color on hover */
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  /* Add any additional styling for cards if needed */
+  margin-bottom: 10px; /* Optional: Add margin between cards */
+}
+
+.margin-profile {
+  margin-bottom: 20px;
+}
+
+.label-bold {
+ font-weight: bolder;
+}

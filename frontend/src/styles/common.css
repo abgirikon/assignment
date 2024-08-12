@@ -1,0 +1,177 @@
+.cron-text {
+    color: gray;
+    font-size: 13px;
+}
+
+.marginTop{
+  margin-top: 1%;
+}
+
+.margin-file{
+  margin-top: 7%;
+}
+
+/* input {
+  border: '1px solid #ced4da' !important;
+  border-radius: '5px' !important;
+  width: '20%' !important;
+  height: '40px' !important;
+} */
+
+.padding-card {
+  padding: 10px;
+}
+.clickIconClassGrey {
+  cursor: pointer; 
+  color: #4C5967
+}
+.clickIconClassGrey:hover {
+  background-color: #e7e9eb;
+}
+.clickIconClass {
+  cursor: pointer; 
+  color: #34B1AA
+}
+
+.no-stripes .MuiDataGrid-row {
+  background-color: transparent !important;
+}
+
+.clickIconClass:hover {
+  background-color: #eaf7f6;
+}
+.clickIconClassDelete {
+  cursor: pointer; 
+  color:#f44336c4;
+}
+.clickIconClassDelete:hover {
+  background-color: #faecec;
+}
+.marginbottom{
+margin-bottom: 2%;
+}
+
+.marginRight{
+  margin-right: 4% !important;
+  }
+  
+.swal-popup {
+  z-index: 9999;
+}
+
+.col-md-4 {
+  display: flex;
+  align-items: center; 
+}
+
+.label-bold {
+  margin-right: 10px; 
+}
+
+.demo-container, .MuiTextField-root {
+  flex-grow: 1;
+}
+
+.MuiTextField-root {
+  width: 100%; 
+}
+
+.marginRight {
+  margin-right: 10px; 
+}
+
+.disabled-button {
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.scroll {
+  max-height: 400px; 
+  overflow-y: auto;
+}
+
+.text-color-grey {
+  color: #837e7e;
+  font-weight: bold;
+}
+
+/* calender css */
+/* .css-9zab1y-MuiDateCalendar-root {
+  width:180px !important;
+}
+
+.css-s893mm-MuiButtonBase-root-MuiMenuItem-root-MuiMultiSectionDigitalClockSection-item {
+  background-color: #34B1AA;
+  color: #F0F7FF;
+  font-size: 10px;
+  width: 20px;
+}
+
+.css-s893mm-MuiButtonBase-root-MuiMenuItem-root-MuiMultiSectionDigitalClockSection-item.Mui-selected {
+  background-color: #34B1AA;
+  color: #F0F7FF;
+  font-size: 10px;
+  width: 20px;
+} */
+
+/* .react-datepicker__input-container {
+ 
+} */
+/* Ensure the DataGrid container fits its content */
+.MuiDataGrid-columnHeaders div {
+  background-color: #85d0cc !important;
+}
+
+.MuiDataGrid-root {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove extra space from column headers and align them properly */
+.MuiDataGrid-columnHeader {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Ensure each column fits within the container */
+.MuiDataGrid-columnHeadersInner {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+/* Ensure column header separators are aligned properly */
+.MuiDataGrid-columnSeparator {
+  display: none;
+}
+
+/* Adjust row container to avoid horizontal overflow */
+.MuiDataGrid-rowContainer {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Set a specific width for each column to ensure they fit within the container */
+/* .MuiDataGrid-columnHeader {
+  flex: 1;
+  width:170px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+  box-sizing: border-box;
+}
+.MuiDataGrid-cell {
+  flex: 1;
+  width:170px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+  box-sizing: border-box;
+}*/
+.MuiDataGrid-row:nth-child(even) {
+  background-color: #f5f5f5; 
+} 
+
+.erroColor {
+  color:red;
+}
